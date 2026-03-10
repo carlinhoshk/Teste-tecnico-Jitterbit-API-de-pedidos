@@ -62,8 +62,8 @@ npm start
 
 - `DELETE /order/:id`
 
-# Notas teste tecnico
-Abaixo estão anotações e tutorial que usei no processo de criação do projeto.
+# [Nota](https://github.com/carlinhoshk/Teste-tecnico-Jitterbit-API-de-pedidos/blob/main/anotacoes/Notas%20teste%20t%C3%A9cnico%20API%20de%20pedidos.md) teste tecnico 
+Abaixo estão anotações e tutorial que usei no processo de criação do projeto, juntei no README para ficar mais populado. 
 ## Tarefas
 
 - [x]  setup Node.js + Express
