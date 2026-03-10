@@ -21,7 +21,7 @@ async function criarPedido(req, res) {
 async function obterPedidoPorId(req, res) {
   try {
     const pedido = await service.buscarPedido(req.params.id)
-
+    // aqui comparamos se existe algum pedido caso for qualquer coisa diferente de pedido ele cai no erro 404
     if (!pedido) {
       return res.status(404).json({ erro: "Pedido nao encontrado" })
     }

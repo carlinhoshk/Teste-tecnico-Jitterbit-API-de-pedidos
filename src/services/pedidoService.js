@@ -7,7 +7,7 @@ async function criarPedido(dados) {
 
   const pedidoMapeado = mapper.mapearPedido(dados)
   const pedidoExistente = await repository.buscarPorId(pedidoMapeado.orderId)
-
+  // aqui forçamos um erro caso o id do pedido já existir 
   if (pedidoExistente) {
     throw new AppError("Pedido ja existe com esse numero", 409)
   }
